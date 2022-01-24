@@ -1,6 +1,9 @@
 .container{
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
+/*======================================
+            Carousel-css     
+======================================*/
 .orange-bg{
     background-color: #FEEAE9;
     border-radius: 10px;
@@ -18,4 +21,58 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+/*======================================
+            Categories-css
+======================================*/
+.cate1{
+    background-image: linear-gradient(to left, #FFD019 0%, #FF9C35 100%);
+}
+.cate2{
+    background-image: linear-gradient(to bottom, #FF5096 0%, #FF2178 100%);
+}
+.cate3{
+    background-image: linear-gradient(to left, #327cc0 0%, #2e79be 100%);
+}
+.cate1, .cate2, .cate3{
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: white;
+}
+.categories img{
+    width: 100px;
+}
+/*======================================
+            Shoes-css
+======================================*/
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 10px;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+/*======================================
+            Contact-css
+======================================*/
+#contact{
+    height: 300px;
+}
+#contact h6{
+    color: gray;
+}
+#contact input{
+    font-size: 18px;
+    padding: 4px;
+}
+/*======================================
+           Footer-css 
+======================================*/
+footer{
+    text-align: center;   
+}
+.footer{
+    margin-bottom: 10px;
 }
