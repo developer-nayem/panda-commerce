@@ -1,5 +1,17 @@
+
+/*======================================
+            Common-css     
+======================================*/
 .container{
     margin-bottom: 80px;
+}
+.buy-now-button{
+    background-image: linear-gradient(to bottom, #FF5898 0%, #ff136f 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
 }
 /*======================================
             Carousel-css     
@@ -13,14 +25,6 @@
 }
 .price{
     color: #FF3182;
-}
-.buy-now-button{
-    background-image: linear-gradient(to bottom, #FF5898 0%, #ff136f 100%);
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    padding: 9px 25px;
-    cursor: pointer;
 }
 /*======================================
             Categories-css
@@ -71,8 +75,36 @@
            Footer-css 
 ======================================*/
 footer{
-    text-align: center;   
+    background-color:  #282531;
 }
-.footer{
-    margin-bottom: 10px;
+.footer-aria{
+    margin: 50px auto 0px auto;
+    padding: 50px 20px 10px 20px;
 }
+.footer-aria p,a{
+    color: rgb(224, 220, 220);
+}
+.column-link li{
+    margin-top: 15px;
+}
+.column-link .title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.column-link a{
+    text-decoration: none;
+}
+.column-link a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+.copyright{
+    color: rgb(175, 172, 172);
+    font-size: 14px;
+    text-align: center;
+    margin: 50px auto 0px auto;
+}
+
+/*=====================================
+            END-Css
+=====================================*/
